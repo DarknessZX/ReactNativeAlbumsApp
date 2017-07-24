@@ -16,8 +16,8 @@ const AlbumDetail = (props) => {
         </View>
       </CardSection>
       <CardSection>
-        <Image source={ {uri : props.album.image } }></Image>
-      </CardSection
+        <Image style={ {width : 400, height : 400}} source={ {uri : props.album.image } }></Image>
+      </CardSection>
     </Card>
   )
 }
